@@ -1,6 +1,8 @@
 # MERN CRUD Application(Backend Part)
 DevOps Learning Journey - Week # 01
+
 ![MERN Stack](./uploads/coverimg.png)
+
 
 Welcome to the MERN CRUD Application repository! This project demonstrates how to build a full-stack CRUD (Create, Read, Update, Delete) application using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
