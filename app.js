@@ -7,9 +7,9 @@ const router = require("./Routes/router");
 const PORT = process.env.PORT || 6010;
 const mongoose = require('mongoose');
 
-// Configure CORS to allow requests from port 3000 (your React frontend)
+// Configure CORS to allow requests from the frontend origin specified in .env
 const corsOptions = {
-  origin: "http://localhost:3000", // Replace with your frontend URL if deployed elsewhere
+  origin: process.env.FRONTEND_ORIGIN, // Use environment variable for frontend origin
   credentials: true, // Allow cookies for authentication purposes (if applicable)
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Origin", "Accept"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
