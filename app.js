@@ -9,12 +9,7 @@ const mongoose = require('mongoose');
 
 // Configure CORS to allow requests from the frontend origin specified in .env
 const corsOptions = {
-<<<<<<< HEAD
-  origin: process.env.FRONTEND_ORIGIN, // Use environment variable for frontend origin
-=======
-  origin: "h process.env.FRONTEND_ORIGIN", // Replace with your frontend URL if deployed elsewhere
->>>>>>> a6539194522df973d89a8aa781b0cf5ec12b88fb
-  credentials: true, // Allow cookies for authentication purposes (if applicable)
+  origin: process.env.FRONTEND_ORIGIN, // Use environment variabl
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Origin", "Accept"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
 };
