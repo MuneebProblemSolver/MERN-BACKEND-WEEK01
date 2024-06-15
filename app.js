@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 // Configure CORS to allow requests from port 3000 (your React frontend)
 const corsOptions = {
-  origin: "http://localhost:3000", // Replace with your frontend URL if deployed elsewhere
+  origin: "h process.env.FRONTEND_ORIGIN", // Replace with your frontend URL if deployed elsewhere
   credentials: true, // Allow cookies for authentication purposes (if applicable)
   allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With", "Origin", "Accept"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
