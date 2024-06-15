@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "install:prod": "npm install --omit=dev"
+<<<<<<< HEAD
  
+=======
+>>>>>>> a6539194522df973d89a8aa781b0cf5ec12b88fb
   },
   "keywords": [],
   "author": "",
