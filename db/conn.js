@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://AdminUser:malik0786@mongocluster.u92cud5.mongodb.net/Cruds?retryWrites=true&w=majority&appName=MongoCluster';
+const connectionString = 'mongodb+srv://AdminUser:password@mongocluster.u92cud5.mongodb.net/Cruds?retryWrites=true&w=majority&appName=MongoCluster';
 
 mongoose.set('strictQuery', false);  // Add this line before or after connect
 
